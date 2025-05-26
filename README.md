@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Simple Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple note-taking application built as a practice project to demonstrate key concepts in modern web development. It allows users to add and delete notes.
+
+This project was initially bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and then extended with TypeScript, Material-UI, and Redux Toolkit.
+
+## Technologies Used
+
+*   **React (v19.1.0):** For building the user interface.
+*   **TypeScript (v5.8.3):** For static typing and improved code quality.
+*   **Material-UI (MUI) (v7.1.0):** For UI components and styling.
+    *   `@emotion/react` & `@emotion/styled`
+*   **Redux Toolkit (v2.8.2):** For state management.
+    *   `react-redux`
+*   **Create React App (`react-scripts` v5.0.1):** For the build setup and development server.
+
+## Features
+
+*   Add new notes with text content.
+*   Delete existing notes.
+*   View a list of all notes, sorted by most recently added.
+*   Responsive design for basic usability.
 
 ## Available Scripts
 
@@ -13,6 +32,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm install`
+
+Installs all the necessary dependencies for the project. Make sure to run this first if you've just cloned the repository.
 
 ### `npm test`
 

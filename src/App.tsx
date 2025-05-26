@@ -23,9 +23,10 @@ function App() {
       <CssBaseline /> {/* Applies baseline styling */}
       <AppBar position="static" sx={{ mb: 4 }}>
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Simple Notes App (React, TS, MUI, Redux)
+          <Typography variant="h6" component="div" sx={{ marginRight: 1 }}>
+            Simple Notes App sample (React, TS, MUI, Redux) for SoftPositive
           </Typography>
+
         </Toolbar>
       </AppBar>
       <Container maxWidth="md">
